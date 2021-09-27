@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* Use this */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
