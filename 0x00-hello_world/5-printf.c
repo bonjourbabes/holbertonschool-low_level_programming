@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - description of function
-* printf - print world
-* return: brings back zero
+* main - printf prints "with proper grammar"
+* prints - print
+* Return: brings back zero
 */
 int main(void)
 {
