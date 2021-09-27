@@ -4,8 +4,6 @@
 * prints - print                                                                                            
 * Return: brings back zero                                                                                  
 */
-int main()
-{
 int intVar;
 float floatVar;
 char charVar;
