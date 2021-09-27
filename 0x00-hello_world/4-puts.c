@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
-* main - this is the description for main that betty wants
+/**
+* main - description of funtion
+* puts - prints
 * Return: returns void
 */
 int main(void)
