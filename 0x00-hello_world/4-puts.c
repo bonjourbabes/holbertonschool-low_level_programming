@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* Use this */
+/*
+* main - main function 
+* Return: returns void
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
