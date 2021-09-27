@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- *
+ *Comment
  */
-int intVar;
-float floatVar;
 char charVar;
+int intVar;
 long int longVar;
 long long int longLongVar;
+float floatVar;
 printf("Size of a char: %d byte(s)\n", sizeof(charVar));
 printf("Size of an int: %d byte(s)\n", sizeof(intVar));
 printf("Size of a long int: %d byte(s)\n", sizeof(longVar));
