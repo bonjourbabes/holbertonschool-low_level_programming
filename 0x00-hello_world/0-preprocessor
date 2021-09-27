@@ -1,6 +1,3 @@
 #!/bin/bash
 #include <stdio.h>
-int main(void)
-{
-    return (0);
-}
+export CFILE=0-main.c ; ./0-preprocessor
