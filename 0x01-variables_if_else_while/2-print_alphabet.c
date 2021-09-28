@@ -4,7 +4,7 @@
 *Return: function main
 *for loop
 */
-int main()
+int main(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
