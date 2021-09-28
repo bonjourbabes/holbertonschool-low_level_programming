@@ -1,16 +1,14 @@
 #include <stdio.h>
 /**
-*main- function
-*Return : function main
-*for loop
-*main -
+*main - uses for loop to print off a string
+*Return: Return value
 */
 int main(void)
 {
 int c;
 for (c = 'a'; c <= 'z'; c++)
-for (c = 'A'; c <= 'Z'; c++)
 putchar(c);
+for (c = 'A'; c <= 'Z'; c++)
 putchar(c);
 putchar('\n');
 return (0);
