@@ -6,9 +6,9 @@
 int main(void)
 {
 char c;
-for (c = 'a' ; c <= 'd' ; c++)
+for (c = 'a' ; c <= 'z' ; c++)
+if((c =!'e') && (c =! 'q'))
 putchar(c);
-for (c = 'f'; c <= 'z' ; c++)
-putchar(c);
+putchar('\n');
 return (0);
 }
