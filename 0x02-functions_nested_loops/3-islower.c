@@ -12,7 +12,7 @@ _putchar('1');
 }
 else if (c >= 'A' && c <= 'Z')
 {
-_putchar('1');
+_putchar('0');
 }
 else
 {
