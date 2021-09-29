@@ -6,5 +6,12 @@
  */
 int _islower(int c)
 {
-
+if(c >= 'A' && ch <= 'Z' )
+{
+_putchar('1');
+}
+else
+{
+_putchar('0');
+}
 }
