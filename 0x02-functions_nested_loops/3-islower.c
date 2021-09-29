@@ -6,13 +6,13 @@
 */
 int _islower(int c)
 {
-if (c >= 'A' && c <= 'Z')
+if (c >= 'a' && c <= 'z')
 {
-_putchar('0');
+_putchar('1');
 }
 else
 {
-_putchar('1');
+_putchar('0');
 }
 return (0);
 }
