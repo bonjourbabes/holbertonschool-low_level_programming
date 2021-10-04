@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_numbers - check the code
+*print_most_numbers - check the code
 * Return: return Always 0.
 */
 void print_most_numbers(void)
@@ -14,5 +14,5 @@ _putchar(x);
 }
 }
 _putchar('\n');
-return ;
+return;
 }
