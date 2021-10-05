@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_diagonal - entry point
+ * print_diagonal - prints backspace
  *
- * @n:variable
+ * @n: variable
  *
- * Return: void
+ * Return: return success
  */
 void print_diagonal(int n)
 {
