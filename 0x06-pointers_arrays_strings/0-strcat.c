@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 #include "2-strlen.c"
 /**
  *_strcat - check the code for Holberton School students.
