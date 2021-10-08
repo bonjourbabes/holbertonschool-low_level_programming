@@ -1,8 +1,10 @@
 #include "holberton.h"
 #include "2-strlen.c"
 /**
- * main - check the code for Holberton School students.
- *
+ *_strncat - check the code for Holberton School students.
+ *@dest: variable
+ *@src: variable
+ *@n: variable
  * Return: Always 0.
  */
 char *_strncat(char *dest, char *src, int n)
