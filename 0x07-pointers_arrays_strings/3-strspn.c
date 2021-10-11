@@ -2,8 +2,8 @@
 #include <string.h>
 /**
  *_strspn - check the code
- *@s
- *@accept
+ *@s: variable
+ *@accept: variable
  * Return: Always 0.
  */
 unsigned int _strspn(char *s, char *accept)
@@ -12,7 +12,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	if ((s == NULL) || (accept == NULL))
 	{
-		return len;
+		return (len);
 	}
 	while (*s && strchr(accept, *s++))
 	{
