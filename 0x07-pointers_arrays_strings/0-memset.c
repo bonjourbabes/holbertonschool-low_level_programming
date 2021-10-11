@@ -1,7 +1,7 @@
 #include "main.h"
 #include "holberton.h"
 /**
- * _memset: puts memory with constant byte
+ *_memset - puts memory with constant byte
  * @s: the address of memory to print
  * @b: the size of the memory to print
  *@n: variable
