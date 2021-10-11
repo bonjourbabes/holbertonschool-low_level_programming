@@ -1,0 +1,1 @@
+This directory is about pointers arrays and strings from Oct 11, 2021.
