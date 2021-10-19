@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	}
 	if (argc == 3)
 	{
-		sum = one(argv[1]) * two(argv[2]);
+		sum = argv[1] * argv[2];
 		printf("%d\n", sum);
 		return(0);
 	}
