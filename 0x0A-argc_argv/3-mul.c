@@ -9,15 +9,15 @@
 int main(int argc, char *argv[])
 {
 	int sum;
+	if (argc != 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
 	if (argc == 3)
 	{
-		sum = argc(argv[1]) * argc(argv[2]);
+		sum = one(argv[1]) * two(argv[2]);
 		printf("%d\n", sum);
-	return (0);
-}
-	else
-	{
-		printf("Error");
-		return (-1);
+		return(0);
 	}
 }
