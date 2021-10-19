@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_strstr - check the code
- *@haystacks: variable
+ *@haystack: variable
  *@needle: variable
  * Return: Always 0.
  */
