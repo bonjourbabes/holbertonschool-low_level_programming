@@ -7,6 +7,6 @@
  */
 int main(int argc, char* argv[])
 {
-	while(argc--)
-	printf("%d/n", *argv[++]);
+	if (argc)
+	printf("%d/n", argv[0]);
 }
