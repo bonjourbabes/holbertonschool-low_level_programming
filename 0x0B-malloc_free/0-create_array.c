@@ -15,12 +15,15 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
+	else
+	{
+		return (arr[0]);
+	}
 	while (i < size)
 	{
 		arr[i] = c;
 		i++;
 	}
-	
 	while (i < size)
 	{
 		printf("%d", *(arr + i));
