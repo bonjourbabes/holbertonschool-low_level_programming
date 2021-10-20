@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-
 /**
  * _strdup - check the code
  *@str: variable
@@ -11,12 +9,20 @@
  */
 char *_strdup(char *str)
 {
-	int i;
-	int len = strlen(str);
+	int i = 0;
+        int len = 0;
+	char *arr;
 	
-	char *arr = malloc((len + 1) * sizeof(char));
-
 	if (str == NULL)
+	{
+		return (NULL);
+	}
+	
+	len = strlen(str);
+	
+	arr = malloc((len + 1) * sizeof(char));
+
+	if (arr == NULL)
 	{
 		return (NULL);
 	}
@@ -25,16 +31,5 @@ char *_strdup(char *str)
 		arr[i] = str[i];
 		i++;
 	}
-	while (i < len)
-	{
-		printf("%d", *(arr + i));
-	}
-	arr[i] = '\0';
-
-	free(arr);
 	return(arr);
-	
-
-	
-
 }
