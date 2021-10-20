@@ -9,14 +9,22 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	int i = 0;
-	int *arr = malloc(sizeof(char))
-	if (size == NULL)
+	unsigned int i = 0;
+	char *arr = malloc(size * sizeof(char));
+	if (arr == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 	while (i < size)
 	{
-
+		arr[i] = c;
+		i++;
 	}
+	
+	while (i < size)
+	{
+		printf("%d", *(arr + i));
+	}
+	arr[i] = '\0';
+	return (arr);
 }
