@@ -2,17 +2,18 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * int_dog - check the code
+ * init_dog - check the code
  *@d: pointer
  *@name: dogname
  *@age: dogage
  *@owner: dogowner
- *Return: zero
+ *Return: void
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if(d)
+	if (d == NULL)
 		return;
+
 	d->name = name;
 	d->age = age;
 	d->owner = owner;
