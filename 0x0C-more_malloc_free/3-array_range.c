@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 /**
- * arry_range - prints buffer in hexa
+ * array_range - prints buffer in hexa
  * @min: the address of memory to print
  * @max: the size of the memory to print
  *
@@ -14,6 +13,7 @@ int *array_range(int min, int max)
 {
 	int *ptr;
 	int i, j = 0;
+
 	if (min > max)
 		return (NULL);
 
