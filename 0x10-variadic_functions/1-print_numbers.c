@@ -2,8 +2,9 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
- * main - check the code
- *
+ * print_numbers - check the code
+ *@separator: comma
+ *@n: number of args
  * Return: Always 0.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -15,13 +16,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_start(ap, n);
 
 	for (i = 0; i < n; i++)
-		{
-			printf("%d", va_arg(ap, int));
+	{
+		printf("%d", va_arg(ap, int));
 
 			if (separator != NULL && i != (n - 1))
 			{
 				printf("%s", separator);
-
 			}
 
 		}
