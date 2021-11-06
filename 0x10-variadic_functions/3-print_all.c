@@ -1,11 +1,11 @@
 #include "variadic_functions.h"
 #include <stdlib.h>
+#include <stdlib.h>
 #include <stdarg.h>
-#include <stdio.h>
 
 /**
- * print_all - prints anything
- * @format: a list of all args passed to the function
+ * print_all - prints
+ * @format: args passed to the function
  *
  * Return: void
  */
