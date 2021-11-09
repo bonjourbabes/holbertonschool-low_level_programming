@@ -4,13 +4,15 @@
 #include "lists.h"
 
 /**
- * main - check the code
- *
+ *add_node_end - check the code
+ *@head: variable
+ *@str: variable
  * Return: Always 0.
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *newNode, *last;
+
 	if (!head || !str)
 		return (NULL);
 
@@ -29,7 +31,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		*head = newNode;
 		return (newNode);
 	}
-        
+
 	last = *head;
 	while (last->next)
 	{
