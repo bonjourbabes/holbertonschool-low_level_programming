@@ -4,13 +4,16 @@
 #include "lists.h"
 
 /**
- * main - check the code
- *
+ * add_node - check the code
+ *@head: variable
+ *@str: variable
  * Return: Always 0.
  */
-list_t *add_node(list_t **head, const char *str){
+list_t *add_node(list_t **head, const char *str)
+{
 
 	list_t *newNode;
+
 	newNode = malloc(sizeof(list_t));
 	if (newNode == NULL)
 	{
